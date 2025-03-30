@@ -1,0 +1,55 @@
+/* Applying styles to the body */
+/* Apply styles to the header using an ID */
+#main-header {
+    background-color: aquamarine;
+    color: darkgreen;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid darkgreen;
+}
+
+/* Style the title using a class */
+.title {
+    font-family: 'Georgia', serif;
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+/* Style the paragraph using a class */
+.description {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Style the image */
+.styled-image {
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: 50px auto;
+    border: 5px solid #555;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+/* Style the button using an ID */
+#styled-button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* Button hover effect */
+#styled-button:hover {
+    background-color: #27ae60;
+}
